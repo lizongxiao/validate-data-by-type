@@ -1,0 +1,16 @@
+{
+  "name": "validate-data-by-type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-schema": "typescript-json-schema collectTs/index.ts * -o schema/index.json --id=api --required --strictNullChecks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.14.0",
+    "typescript-json-schema": "^0.63.0"
+  }
+}

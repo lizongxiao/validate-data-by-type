@@ -1,0 +1,25 @@
+{
+    "$id": "api",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "UserInfoAlias": {
+            "properties": {
+                "id": {
+                    "type": "number"
+                },
+                "nick": {
+                    "type": "string"
+                },
+                "token": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "token"
+            ],
+            "type": "object"
+        }
+    }
+}
+
